@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aluguel de casa em Vila Santa Margarida, Ferraz de Vasconcelos. Em frente ao ponto de ônibus, próximo ao Supermercado Rossi. Localização estratégica e excelente investimento.">
+    <meta name="keywords" content="aluguel ferraz de vasconcelos, casa vila santa margarida, aluguel residencial, supermercado rossi, ponto de ônibus, investimento imobiliário">
+    <meta name="author" content="Seu Nome">
+    <meta name="theme-color" content="#2563eb">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="Casa em Vila Santa Margarida - Ferraz de Vasconcelos">
+    <meta property="og:description" content="Aluguel de casa em Ferraz de Vasconcelos, em frente ao ponto de ônibus. Próximo ao Supermercado Rossi e Centro Comercial.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./src/assets/images/thumb.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Casa para Alugar em Ferraz de Vasconcelos">
+    <meta name="twitter:description" content="Vila Santa Margarida - Ferraz de Vasconcelos. Em frente ao ponto de ônibus, próximo ao Supermercado Rossi.">
+    
+    <title>Casa para Alugar em Ferraz de Vasconcelos | Vila Santa Margarida</title>
+    <link rel="canonical" href="https://seudominio.com">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>🏠 Vila Santa Margarida</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Sua Casa Ideal em Ferraz de Vasconcelos</h1>
+            <p>Vila Santa Margarida - Em Frente ao Ponto de Ônibus</p>
+            <p class="hero-subtitle">Próximo ao Supermercado Rossi • Centro Comercial Próximo • Excelente Localização</p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="document.getElementById('galeria').scrollIntoView({behavior:'smooth'})">Ver Fotos</button>
+                <button class="btn-secondary" onclick="document.getElementById('contato').scrollIntoView({behavior:'smooth'})">Entrar em Contato</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTAQUE -->
+    <section class="destaque">
+        <div class="destaque-grid">
+            <div class="destaque-card">
+                <div class="icon">🏘️</div>
+                <h3>Ferraz de Vasconcelos</h3>
+                <p>Cidade consolidada com crescimento imobiliário e infraestrutura em expansão</p>
+            </div>
+            <div class="destaque-card">
+                <div class="icon">🚌</div>
+                <h3>Em Frente ao Ponto de Ônibus</h3>
+                <p>Acesso rápido a transporte público e fácil mobilidade pela região</p>
+            </div>
+            <div class="destaque-card">
+                <div class="icon">🛒</div>
+                <h3>Próximo ao Supermercado Rossi</h3>
+                <p>Compras e mercado a poucos minutos de distância</p>
+            </div>
+            <div class="destaque-card">
+                <div class="icon">🏪</div>
+                <h3>Centro Comercial Próximo</h3>
+                <p>Lojas, restaurantes e serviços diversos ao seu alcance</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" class="galeria">
+        <h2>Fotos da Propriedade</h2>
+        <p class="section-subtitle">Conheça todos os espaços e o potencial da casa</p>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa.jpeg')">
+                <img src="./src/assets/images/aluga-casa.jpeg" alt="Fachada frontal da propriedade">
+                <div class="gallery-label">Fachada</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa-a.jpeg')">
+                <img src="./src/assets/images/aluga-casa-a.jpeg" alt="Quarto 1 da propriedade">
+                <div class="gallery-label">Quarto 1</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa-n.jpeg')">
+                <img src="./src/assets/images/aluga-casa-n.jpeg" alt="Quarto 2 da propriedade">
+                <div class="gallery-label">Quarto 2</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa-c.jpeg')">
+                <img src="./src/assets/images/aluga-casa-c.jpeg" alt="Quintal e pátio">
+                <div class="gallery-label">Quintal</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa-e.jpeg')">
+                <img src="./src/assets/images/aluga-casa-e.jpeg" alt="Banheiro 1">
+                <div class="gallery-label">Banheiro 1</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa-i.jpeg')">
+                <img src="./src/assets/images/aluga-casa-i.jpeg" alt="Banheiro 2">
+                <div class="gallery-label">Banheiro 2</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa-u.jpeg')">
+                <img src="./src/assets/images/aluga-casa-u.jpeg" alt="Cozinha 1">
+                <div class="gallery-label">Cozinha 1</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa-s.jpeg')">
+                <img src="./src/assets/images/aluga-casa-s.jpeg" alt="Cozinha 2">
+                <div class="gallery-label">Cozinha 2</div>
+            </div>
+            <div class="gallery-item" onclick="openModal('./src/assets/images/aluga-casa-t.jpeg')">
+                <img src="./src/assets/images/aluga-casa-t.jpeg" alt="Área de lavanderia">
+                <div class="gallery-label">Lavanderia</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL LIGHTBOX -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-caption" id="modalCaption"></div>
+    </div>
+
+    <!-- CARACTERÍSTICAS -->
+    <section id="caracteristicas" class="caracteristicas">
+        <h2>Características da Propriedade</h2>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>📐 Dimensões</h3>
+                <ul>
+                    <li>Área total: ~120 m²</li>
+                    <li>Terreno amplo com potencial</li>
+                    <li>Múltiplos cômodos</li>
+                </ul>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🏗️ Estrutura</h3>
+                <ul>
+                    <li>Fundação sólida</li>
+                    <li>Espaço pronto para reforma</li>
+                    <li>Boa iluminação natural</li>
+                </ul>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🛠️ Possibilidades</h3>
+                <ul>
+                    <li>Reforma completa possível</li>
+                    <li>Modernização de cômodos</li>
+                    <li>Personalização total</li>
+                </ul>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🌍 Localização Premium</h3>
+                <ul>
+                    <li>Vila Santa Margarida - Ferraz de Vasconcelos</li>
+                    <li>Em frente ao ponto de ônibus</li>
+                    <li>Próximo ao Supermercado Rossi</li>
+                    <li>Centro comercial a poucos passos</li>
+                    <li>Cidade em desenvolvimento imobiliário</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- INVESTIMENTO -->
+    <section class="investimento">
+        <div class="invest-container">
+            <h2>Por Que Escolher Vila Santa Margarida?</h2>
+            <div class="invest-content">
+                <div class="invest-image">
+                    <div class="image-placeholder-secondary">
+                        🎯 Melhor Localização
+                    </div>
+                </div>
+                <div class="invest-text">
+                    <div class="invest-item">
+                        <h4>✅ Localização Estratégica em Ferraz</h4>
+                        <p>Em frente ao ponto de ônibus com fácil acesso a transportes e próximo ao Supermercado Rossi para comodidade do dia a dia.</p>
+                    </div>
+                    <div class="invest-item">
+                        <h4>✅ Bairro em Crescimento</h4>
+                        <p>Vila Santa Margarida é um bairro em desenvolvimento em Ferraz de Vasconcelos, com grande demanda e potencial de valorização.</p>
+                    </div>
+                    <div class="invest-item">
+                        <h4>✅ Investimento Seguro</h4>
+                        <p>Cidade consolidada com infraestrutura crescente e mercado imobiliário em expansão, ideal para moradia ou renda de aluguel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <p class="section-subtitle">Agende sua visita e conheça a oportunidade pessoalmente</p>
+        
+        <div class="contato-content">
+            <div class="contato-info">
+                <div class="info-card">
+                    <h3>📱 WhatsApp</h3>
+                    <p><strong>Érica</strong></p>
+                    <p><a href="https://wa.me/5511977617246" target="_blank">+55 (11) 977617246</a></p>
+                </div>
+                <div class="info-card">
+                    <h3>📧 Email</h3>
+                    <p><a href="mailto:contato@example.com">ericagatinhasantos@gmail.com</a></p>
+                </div>
+                <div class="info-card">
+                    <h3>📍 Ferraz de Vasconcelos</h3>
+                    <p>Vila Santa Margarida<br>Em frente ao ponto de ônibus<br>Próximo ao Supermercado Rossi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 Vila Santa Margarida - Ferraz de Vasconcelos. Todos os direitos reservados.</p>
+        <p>Aluguel de Casa | Ferraz de Vasconcelos | Próximo Rossi e Ponto de Ônibus</p>
+    </footer>
+
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
